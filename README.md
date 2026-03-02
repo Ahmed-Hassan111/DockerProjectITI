@@ -39,16 +39,22 @@ A containerized Python data analytics application that fetches user data, perfor
 
 docker build -t pydata-analytics:1.0 .
 
+<img width="632" height="60" alt="img1" src="https://github.com/user-attachments/assets/bb199c45-9b7d-4b69-af92-42ce11fa5e16" />
+
 ### ▶️ Run the Container
 
 docker run -itd --name containerName pydata:1.0 sh
 python app.py
+
+<img width="1602" height="503" alt="img2-arrows" src="https://github.com/user-attachments/assets/dc97c0e7-ec0c-4e70-9da5-3fff6a596a26" />
 
 📊 **Expected Output**
 
 After running the container, the output/ directory will contain:
     cleaned_users.csv - Processed dataset
     images as visualization of each insight
+
+<img width="697" height="72" alt="img3" src="https://github.com/user-attachments/assets/09ede77e-0ca2-4207-a1ba-e263d4e8c6b4" />
 
 ✅ **Best Practices Applied**
 
