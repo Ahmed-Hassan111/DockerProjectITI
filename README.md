@@ -23,9 +23,13 @@ A containerized Python data analytics application that fetches user data, perfor
 ## 📂 Project Structure
 
 .
+
 ├── Dockerfile           # Container build instructions
+
 ├── app.py               # Main analytics script
+
 ├── requirements.txt     # Python dependencies
+
 └── README.md            # Project documentation
 
 
