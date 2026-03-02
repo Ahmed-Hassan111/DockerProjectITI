@@ -44,6 +44,7 @@ docker build -t pydata-analytics:1.0 .
 ### ▶️ Run the Container
 
 docker run -itd --name containerName pydata:1.0 sh
+
 python app.py
 
 <img width="1602" height="503" alt="img2-arrows" src="https://github.com/user-attachments/assets/dc97c0e7-ec0c-4e70-9da5-3fff6a596a26" />
